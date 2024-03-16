@@ -7,11 +7,13 @@ public abstract class Barang{
         this.kodeBarang = kodeBarang;
         this.namaBarang = namaBarang;
     }
-
+    
+    @Deprecated
     public String getkodeBarang(){
         return kodeBarang;
     }
     
+    @Deprecated
     public void setkodeBarang(String kodeBarang){
         this.kodeBarang = kodeBarang;
     }
@@ -19,16 +21,12 @@ public abstract class Barang{
     public String getnamaBarang(){
         return namaBarang;
     }
-
     
     public void setnamaBarang(String namaBarang){
         this.namaBarang = namaBarang;
     }
 
-
-
     public abstract double hitungNilai();
-
 
     public void tampilkanInfo() {
         System.out.println("Informasi Barang:");
