@@ -1,4 +1,8 @@
 public enum JenisBarang {
     Elektronik,
-    Pakaian
+    Pakaian,
+    Makanan,
+    PerlengkapanRumah,
+    Mainan,
+    AlatOlahraga
 }
